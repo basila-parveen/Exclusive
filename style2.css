@@ -1,0 +1,132 @@
+.rightpage .wrapper2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 90px;
+  margin-left: 95px;
+}
+.one {
+  opacity: 50%;
+}
+.container3_content_grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 31px;
+  grid-row-gap: 60px;
+}
+
+.container3_contentbox1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: space-between;
+  justify-items: auto;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+}
+.container3_items1 {
+  width: 270px;
+  height: 322px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.container3_first_item {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container3_first_item:hover .addcart {
+  display: block;
+  text-align: center;
+  align-content: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  align-items: center;
+  row-gap: 10px;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.firstp {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #db4444;
+}
+.old_price {
+  text-decoration: line-through;
+}
+.rating {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.offers {
+  width: 51px;
+  height: 26px;
+  gap: 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offers p {
+  color: #fafafa;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.discount {
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  background-color: #db4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.discount p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.amount {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.old_price {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: line-through;
+  opacity: 50%;
+}
