@@ -93,7 +93,9 @@ const displayProduct = (products) => {
             <img src="${pdt2.images}" alt="img1" />
 
             <div class="addcart">
-              <p>Add To Cart</p>
+             <a href="#">
+        <p>Add To Cart</p>
+      </a>
             </div>
 
             ${

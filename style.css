@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 head {
   overflow-x: hidden;
@@ -89,12 +90,16 @@ li {
 }
 .first_list {
   text-decoration: none;
-  border-bottom: 1px solid black;
+  color: black;
 }
 .header_right {
   display: flex;
   gap: 1.5em;
   align-items: center;
+}
+.list1:active,
+.list1:hover {
+  text-decoration: underline;
 }
 #check {
   display: none;
@@ -104,7 +109,7 @@ li {
   font-size: 20px;
   cursor: pointer;
   display: none;
-  margin-left: 100px;
+  margin-left: 450px;
 }
 .search {
   display: flex;
@@ -142,6 +147,7 @@ li {
 hr {
   margin-top: 10px;
   opacity: 30%;
+  max-width: 100%;
 }
 .container1 {
   margin-top: 50px;
@@ -166,6 +172,7 @@ hr {
   flex-direction: column;
   align-items: center;
   row-gap: 30px;
+  flex-wrap: wrap;
 }
 .content_first_ {
   display: flex;
@@ -186,7 +193,7 @@ hr {
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
-  padding-left: 100px;
+  padding-left: 70px;
   font-family: "inter", sans-serif;
 }
 .shop_now {
@@ -196,7 +203,7 @@ hr {
   gap: 10px;
   margin-right: 65px;
 }
-.shop_now a {
+.ShopNow {
   text-decoration: none;
   font-size: 1rem;
   border-bottom: 1px solid white;
@@ -268,10 +275,11 @@ hr {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 31px;
   grid-row-gap: 60px;
+  margin-right: 25px;
 }
 .container3_content_box {
   width: 270px;
-  height: 322px;
+  height: 295px;
   background: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -292,8 +300,9 @@ hr {
   color: #fff;
   width: 270px;
   height: 41px;
-  border-radius: 0px 4px;
+  border-radius: 0px 0px 4px 4px;
   display: none;
+  cursor: pointer;
 }
 .container3_content_box:hover .addcart {
   display: block;
@@ -368,14 +377,13 @@ hr {
 .allproducts {
   margin-top: 25px;
   width: 234px;
-  height: 56px;
   border-radius: 4px;
   background: #db4444;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px 48px;
-  margin-left: 420px;
+  margin-left: 500px;
 }
 .allproducts a {
   text-decoration: none;
@@ -514,7 +522,7 @@ hr {
   flex-direction: column;
 }
 .footer_copyright {
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -527,4 +535,17 @@ hr {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+.SocialMedia {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.last_hr {
+  margin-top: 20px;
+  color: #fafafa;
+  opacity: 40%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
